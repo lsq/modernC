@@ -6,7 +6,7 @@ static double const eps1m01 = 1.0 - 0x1P-02;
 static double const eps1p01 = 1.0 + 0x1P-02;
 static double const eps1m24 = 1.0 - 0x1P-24;
 static double const eps1p24 = 1.0 + 0x1P-24;
-static double const eps2 = 0x1.6P-02; // (1*16^0 + 6 * 16^-1) * 2^-2
+static double const eps2 = 0x1.6P-02; // (1*16^0 + 6 * 16^-1) * 2^-2 = 0.34375
 
 int main(int argc, char* argv[argc + 1]) {
   printf("eps2=%.12f\n", eps2);
